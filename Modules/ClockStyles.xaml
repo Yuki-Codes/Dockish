@@ -11,7 +11,7 @@
 	<Style TargetType="{x:Type modules:Clock}">
 		<Setter Property="Template" Value="{StaticResource ClockTemplate}"/>
 		<Setter Property="VerticalAlignment" Value="Center"/>
-		<Setter Property="Margin" Value="6,0"/>
+		<Setter Property="Margin" Value="12,0"/>
 	</Style>
 
 </ResourceDictionary>

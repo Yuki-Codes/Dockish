@@ -17,7 +17,9 @@
 				<ResourceDictionary Source="./DockStyles.xaml" />
 
 				<ResourceDictionary Source="./Modules/ClockStyles.xaml" />
+				<ResourceDictionary Source="./Modules/MediaStyles.xaml" />
 			</ResourceDictionary.MergedDictionaries>
+
 		</ResourceDictionary>
 	</Window.Resources>
 
@@ -101,6 +103,7 @@
 
 		<dockish:Dock VerticalAlignment="Top">
 			<StackPanel Orientation="Horizontal">
+				<modules:Media />
 				<modules:Clock />
 			</StackPanel>
 		</dockish:Dock>
