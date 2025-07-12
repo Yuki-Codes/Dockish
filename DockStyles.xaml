@@ -23,7 +23,8 @@
 					<Path
 						Grid.Column="0"
 						VerticalAlignment="Top"
-						Fill="Black">
+						Fill="Black"
+						Margin="0,0,-1,0">
 						<Path.Data>
 							<CombinedGeometry GeometryCombineMode="Exclude">
 								<CombinedGeometry.Geometry1>
@@ -47,7 +48,8 @@
 					<Path
 						Grid.Column="2"
 						VerticalAlignment="Top"
-						Fill="Black">
+						Fill="Black"
+						Margin="-1,0,0,0">
 						<Path.Data>
 							<CombinedGeometry GeometryCombineMode="Exclude">
 								<CombinedGeometry.Geometry1>
