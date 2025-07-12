@@ -1,0 +1,17 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:dockish="clr-namespace:Dockish"
+	xmlns:modules="clr-namespace:Dockish.Modules"
+	xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+	<ControlTemplate x:Key="ClockTemplate" TargetType="{x:Type modules:Clock}">
+		<TextBlock Text="{Binding DateTime, RelativeSource={RelativeSource TemplatedParent}, Mode=OneWay,  StringFormat='yyyy-MM-dd HH:mm:ss'}"/>
+	</ControlTemplate>
+
+	<Style TargetType="{x:Type modules:Clock}">
+		<Setter Property="Template" Value="{StaticResource ClockTemplate}"/>
+		<Setter Property="VerticalAlignment" Value="Center"/>
+		<Setter Property="Margin" Value="6,0"/>
+	</Style>
+
+</ResourceDictionary>
